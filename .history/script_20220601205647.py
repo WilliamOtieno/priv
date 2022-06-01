@@ -1,9 +1,9 @@
 import random
 import subprocess
 
-for i in range(10):
+for i in range(30000):
     print(i)
-    f = open('./demo.txt', 'a')
+    f = open('./demo.txt', 'w')
     num = random.randint(1, 9999)
     f.write(str(num))
     f.close()
