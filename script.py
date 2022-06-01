@@ -1,7 +1,7 @@
 import random
 import subprocess
 
-for i in range(10):
+for i in range(30000):
     print(i)
     f = open('./demo.txt', 'a')
     num = random.randint(1, 9999)
